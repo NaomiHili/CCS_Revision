@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        
+        <h1> Registration </h1>
+        
+        <h3> Enter your details: </h3>
+        
+        <form action="index2.html">
+           
+        <p> First name:</p>
+        <input class="w3-input w3-border" type="text" placeholder="Name" required>
+        
+        <p> Last name: </p>
+        <input class="w3-input w3-border" type="text" placeholder="Surname" required>
+        
+         <p> Username:</p>
+        <input class="w3-input w3-border" type="text" placeholder="Username" required>
+        
+        <p> Password: </p>
+        <input class="w3-input w3-border" type="password" placeholder="Password" maxlength="15" required title="Your password needs to be between 5 ans 15 characters" >
+        
+        <p> Gender: </p>
+          <input type="radio" name="gender" value="male" checked> Male<br>
+          <input type="radio" name="gender" value="female"> Female<br>
+        
+        <p> Email: </p>
+        <input class="w3-input w3-border" type="email" placeholder="Email" required>
+        
+        <P> Address: </P>
+        <textarea name="Address"  style="width:300px; height:100px;"> 
+        </textarea>
+        <!-- rows="4" cols="50" instead of style="width:300px; height:100px;"-->
+        <br><br>
+        <input type="submit" value="submit"> 
+        
+        </form>
+
+    </body>
+</html>

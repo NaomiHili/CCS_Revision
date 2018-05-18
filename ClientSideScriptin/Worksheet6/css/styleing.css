@@ -1,0 +1,21 @@
+h1{
+    color: red;
+}
+
+
+
+#title{
+    width: 30%;
+    display: inline-block;
+    color: firebrick;
+}
+
+#add_ans,#sub_ans,#multiply_ans,#dividing_ans,#power_ans,#modules_ans,#area_ans,#SPeremeter_ans{
+    margin-left: 20%;
+    width: 30%;
+}
+
+
+button{
+    margin-left: 30%;
+}
